@@ -29,6 +29,7 @@ android {
 
 ext {
     daggerVersion = '2.24'
+    gsonVersion = '2.8.5'
     okHttpVersion = '4.2.0'
     retrofitVersion = '2.6.1'
     rxJavaVersion = '2.2.12'
@@ -60,4 +61,7 @@ dependencies {
 
     // RxJava
     implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+
+    // Gson
+    implementation "com.google.code.gson:gson:$gsonVersion"
 }
